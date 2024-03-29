@@ -9,7 +9,7 @@ def add_todo():
     functions.write_todos(todos)
 
 
-
+st.set_page_config(page_title= "TODO App",layout="wide" )
 
 st.title ("my Todo App")
 st.subheader("this is a basic todo app")
